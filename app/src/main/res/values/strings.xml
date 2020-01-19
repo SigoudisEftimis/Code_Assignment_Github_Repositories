@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Repository</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="author">created by <b>Sigoudis Euthumios</b> </string>
+    <string name="hint_null"> - </string>
+    <string name="size_str">Repository size is  </string>
+    <string name="star_count_str">Stargazers count is  </string>
+    <string name="language_str">Languages is  </string>
+    <string name="watcher_str">Repository watchers  </string>
+    <string name="forks_counts_str">Forks count is </string>
+    <string name="issues_str">Open issues</string>
+    <string name="title">Repository Details</string>
+    <string name="error_message">Oops something gone wrong !!</string>
+    <string name="contact_name">Sigoudis Euthumios</string>
+    <string name="contact_phone">6940127543</string>
+    <string name="contact_details" >Contact details</string>
+
+</resources>

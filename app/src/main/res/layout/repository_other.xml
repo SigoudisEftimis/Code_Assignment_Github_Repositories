@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/item_repository_padding">
+
+    <TextView
+        android:id="@+id/node_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_name"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_name" />
+
+    <TextView
+        android:id="@+id/size"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableStart="@mipmap/ic_size"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_size" />
+
+    <TextView
+        android:id="@+id/stargazers_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_id"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_id" />
+
+    <TextView
+        android:id="@+id/language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_language"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_language" />
+
+    <TextView
+        android:id="@+id/issues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_issues"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_issues" />
+
+    <TextView
+        android:id="@+id/has_project"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_project"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_project" />
+
+    <TextView
+        android:id="@+id/has_download"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_download"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_download" />
+
+    <TextView
+        android:id="@+id/forks_count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_count"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_count" />
+
+    <TextView
+        android:id="@+id/watchers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableStart="@mipmap/ic_watchers"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:drawableLeft="@mipmap/ic_watchers" />
+
+</LinearLayout>
